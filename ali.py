@@ -1,13 +1,10 @@
 import streamlit as st
 from PIL import Image
 from PIL import ImageOps
-import cv2
 import numpy as np
 import streamlit.components.v1 as components
 
 import tensorflow as tf
-import base64
-import io
 
 
 model=tf.keras.models.load_model('my_model.hdf5')
